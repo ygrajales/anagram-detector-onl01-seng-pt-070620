@@ -7,7 +7,7 @@ class Anagram
     @word = word
   end
   
-  def self.match(list)
+  def match(list)
     word_letters = @word.split("").sort 
     
     list.find_all do |list_word|
